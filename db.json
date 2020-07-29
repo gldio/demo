@@ -1,5 +1,15 @@
 {
-  "users": [
-    { "id": 1, "username": "Gunay", "email": "gunay@email.com", "password": "q12345" }
-  ]
+  "user": {
+    "id": 1,
+    "username": "Gunay",
+    "email": "gunay@email.com",
+    "password": "q12345"
+  },
+  "auth": {
+    "login": { "success": "true" },
+    "logout": { "success": "true" },
+    "register": { "success": "true" },
+    "recover": { "success": "true" }
+  },
+  "upload": { "success": "true" }
 }
